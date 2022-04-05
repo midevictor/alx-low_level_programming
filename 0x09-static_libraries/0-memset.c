@@ -9,13 +9,13 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int a = 0;
+unsigned int a = 0;
 
-	while (a < n)
-	{
-		s[a] = b;
-		a++;
-	}
+while (a < n)
+{
+s[a] = b;
+a++;
+}
 
-	return (s);
+return (s);
 }
